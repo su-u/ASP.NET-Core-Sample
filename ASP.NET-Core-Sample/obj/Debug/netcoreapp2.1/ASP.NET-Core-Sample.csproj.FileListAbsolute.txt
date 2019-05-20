@@ -1,0 +1,14 @@
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\bin\Debug\netcoreapp2.1\ASP.NET-Core-Sample.deps.json
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\bin\Debug\netcoreapp2.1\ASP.NET-Core-Sample.runtimeconfig.json
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\bin\Debug\netcoreapp2.1\ASP.NET-Core-Sample.runtimeconfig.dev.json
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\bin\Debug\netcoreapp2.1\ASP.NET-Core-Sample.dll
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\bin\Debug\netcoreapp2.1\ASP.NET-Core-Sample.pdb
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.csprojAssemblyReference.cache
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.csproj.CoreCompileInputs.cache
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.RazorAssemblyInfo.cache
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.RazorAssemblyInfo.cs
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.AssemblyInfoInputs.cache
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.AssemblyInfo.cs
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.RazorTargetAssemblyInfo.cache
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.dll
+C:\Users\SAVIOR\Source\Repos\ASP.NET-Core-Sample\ASP.NET-Core-Sample\obj\Debug\netcoreapp2.1\ASP.NET-Core-Sample.pdb
