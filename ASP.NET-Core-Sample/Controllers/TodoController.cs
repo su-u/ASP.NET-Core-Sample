@@ -44,5 +44,16 @@ namespace ASP.NET_Core_Sample.Controllers
 
             return todoItem;
         }
+
+        // POST: api/Todo
+        [HttpPost]
+        public async Task<ActionResult<TodoItem>> PostTodoItem(TodoItem item)
+        {
+            this._context.TodoItems.Add(item);
+            await this._context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetTodoItem), new { id = item.Id }, item);
+        }
+
     }
 }
