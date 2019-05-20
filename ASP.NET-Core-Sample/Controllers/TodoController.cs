@@ -27,12 +27,22 @@ namespace ASP.NET_Core_Sample.Controllers
             }
         }
 
+        // GET: api/Todo
         [HttpGet]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItems()
         {
             return await this._context.TodoItems.ToListAsync();
         }
 
+        // GET: api/Todo/5
+        [HttpGet("{id}")]
+        public async Task<ActionResult<TodoItem>> GetTodoItem(Int64 id)
+        {
+            var todoItem = await this._context.TodoItems.FindAsync(id);
 
+            if(todoItem == null )return NotFound();
+
+            return todoItem;
+        }
     }
 }
