@@ -40,7 +40,7 @@ namespace ASP.NET_Core_Sample.Controllers
         {
             var todoItem = await this._context.TodoItems.FindAsync(id);
 
-            if(todoItem == null )return NotFound();
+            if(todoItem == null)return NotFound();
 
             return todoItem;
         }
