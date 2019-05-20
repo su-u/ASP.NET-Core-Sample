@@ -20,7 +20,7 @@ namespace ASP.NET_Core_Sample.Controllers
         {
             this._context = context;
 
-            if(this._context.TodoItems.Count() == 0)
+            if (this._context.TodoItems.Count() == 0)
             {
                 _context.TodoItems.Add(new TodoItem { Name = "Item1" });
                 _context.SaveChanges();
@@ -40,7 +40,7 @@ namespace ASP.NET_Core_Sample.Controllers
         {
             var todoItem = await this._context.TodoItems.FindAsync(id);
 
-            if(todoItem == null)return NotFound();
+            if (todoItem == null) return NotFound();
 
             return todoItem;
         }
@@ -53,6 +53,21 @@ namespace ASP.NET_Core_Sample.Controllers
             await this._context.SaveChangesAsync();
 
             return CreatedAtAction(nameof(GetTodoItem), new { id = item.Id }, item);
+        }
+
+        // PUT: api/Todo
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutTodoItem(Int64 id, TodoItem item)
+        {
+            if(id != item.Id)
+            {
+                return BadRequest();
+            }
+
+            this._context.Entry(item).State = EntityState.Modified;
+            await this._context.SaveChangesAsync();
+
+            return NoContent();
         }
 
     }
