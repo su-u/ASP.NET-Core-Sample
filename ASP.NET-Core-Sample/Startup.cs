@@ -45,6 +45,8 @@ namespace ASP.NET_Core_Sample
                 app.UseHsts();
             }
 
+            app.UseDefaultFiles();
+            app.UseStaticFiles();
             app.UseHttpsRedirection();
             app.UseMvc();
         }
