@@ -70,5 +70,22 @@ namespace ASP.NET_Core_Sample.Controllers
             return NoContent();
         }
 
+        // DELETE: api/Todo
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteTodoItem(Int64 id)
+        {
+            var todoItem = await this._context.TodoItems.FindAsync(id);
+
+            if(todoItem == null)
+            {
+                return NotFound();
+            }
+
+            this._context.TodoItems.Remove(todoItem);
+            await this._context.SaveChangesAsync();
+
+            return NoContent();
+        }
+
     }
 }
